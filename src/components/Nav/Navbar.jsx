@@ -106,6 +106,11 @@ const Navbar = () => {
                                     Contact Us
                                 </a>
                             </li>
+                             <li className="nav-item">
+                                <a onClick={()=> navigate("/login")} className="nav-link" href="#">
+                                    Admin Login
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

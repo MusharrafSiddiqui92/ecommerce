@@ -17,6 +17,9 @@ import Subscribe from './components/Subscribe/Subscribe';
 import Men from './components/Men/Men';
 import Women from './components/Women/Women';
 import Kids from './components/Kids/Kids';
+import Login from './components/Login/Login'
+// import AdminPortal from './components/AdminPortal/AdminPortal';
+import Products from './components/products/Products'
 function App() {
   return (
     <>
@@ -35,6 +38,9 @@ function App() {
  <Route path = "/men"   element={<Men/>}/>
  <Route path = "/women" element={<Women/>}/>
  <Route path = "/kids"  element={<Kids/>}/>
+ <Route path="login" element={<Login/>}/>
+ {/* <Route path="adminportal" element={<AdminPortal/>}/> */}
+ <Route path="products" element={<Products/>}/>
  </Routes>
  </BrowserRouter>
     </>
